@@ -11,7 +11,7 @@ create table chat_record
     is_public       boolean default true,
     language        varchar,
     uid             varchar,
-    title           varchar,
+    title           varchar
 );
 
 comment on table chat_record is 'chat_record table';
